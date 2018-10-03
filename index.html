@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js"></script>
+
+<div id="timer">
+	<p>Name of your task</p>
+	<input type="text" id="fild"><br>
+	<div id="stopwatch"></div>
+	<button id="buttonClick">START</button>
+	<div class="modal">
+		<div class="modal-content">
+			<h4>Empty task name</h4>
+			<p>You are trying close your task withoit name.enter the title  and try again!</p>
+			<span class="close">Close</span>
+		</div>
+	</div>
+	<div >
+		<table id="t">
+		<tr id="firstLine">
+			<td>№</td>
+			<td>Name of task</td>
+			<td>Time start</td>
+			<td>Time end</td>
+			<td>Time spend</td>
+			<td>Info</td>
+			<td>Delete</td>
+		</tr>
+		</table>
+	</div>
+</div>
+<canvas id="myChart"></canvas>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
